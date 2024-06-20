@@ -157,50 +157,62 @@ color: #ED8B00;
 /* Section styles */
 .container {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     max-width: 600px;
 }
 .section {
-    padding: 100px 5%;
+    padding: 150px 10%;
     color: white;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     box-sizing: border-box;
+    margin-bottom: 100px;
+    line-height: 1.6;
+
 }
 
 .section.title {
-    padding: 50px 0;
+    margin-top: 75px;
+    padding: 0;
     color: #70002e;
     text-align: center;
+    line-height: 1.6;
+
 }
 
 .section.title .container {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     max-width: calc(100% - 100px);
     margin: 0 auto;
     box-sizing: border-box;
+    line-height: 1.6;
 }
 
 .title .image-container {
     text-align: center;
     margin-top: 20px;
+    margin-right:50px;
+    margin-left:50px;
 }
 
 .title .quote-text {
     margin-top: 20px;
     font-size: 18px;
     line-height: 1.6;
+    margin-right:75px;
+    margin-left:75px;
 }
 
 .title h1 {
     font-size: 36px; 
-    margin-top: 20px; 
+    margin-top: 20px;
+     
 }
 
 .goal-list {
@@ -227,6 +239,8 @@ color: #ED8B00;
     margin-top: 20px;
     font-size:18px;
     line-height: 1.6;
+    margin-right:75px;
+    margin-left:75px;
 }
 
 .apply h1 {
@@ -392,5 +406,57 @@ textarea {
     margin-top: 5px;
     resize: vertical;
     margin-right: 100px;
+}
+
+/* Font styles */
+.fjalla-one-regular {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+:root {
+    --font-fjalla-one: 'Fjalla One', sans-serif;
+    --font-libre-baskerville: 'Libre Baskerville', serif;
+}
+
+h1,
+.header-content a,
+.footer-content,
+.footer-content a,
+.dropbtn,
+.dropdown-content a {
+    font-family: var(--font-fjalla-one);
+}
+
+body,
+p,
+ul,
+li,
+.main-nav a {
+    font-family: var(--font-libre-baskerville);
+}
+
+.header-content a,
+.footer-content a {
+    font-family: var(--font-fjalla-one);
 }
 
