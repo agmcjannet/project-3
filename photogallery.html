@@ -7,13 +7,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>
+    <header>
         <div class="header-content">
             <a href="index.html" class="logo-link">
                 <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="UM Advocates Logo" class="logo">
             </a>
             <nav class="horizontal-nav">
-                <a href="apply.html">Apply Now</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Apply Now</button>
+                    <div class="dropdown-content">
+                        <a href="apply.html">What's it like?</a>
+                        <a href="form.html">Basic Information Form</a>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn">About</button>
                     <div class="dropdown-content">
@@ -31,7 +37,7 @@
             <div class="section title" id="Title">
                 <div class="container">
                     <h1>Photo Gallery</h1>
-                    
+
                 <div class="gallery-container">
                     <div class="gallery-item">
                         <img src="images/2023 Advocates running orientaiton.jpg" 
@@ -183,14 +189,21 @@
     
 
     <footer class="horizontal-footer">
-        <div class="container">
-          <p>Follow me:</p> 
-          <a href="https://www.instagram.com/um_advocates/" target="_blank">
-              <img src="https://th.bing.com/th/id/R.330becd1786bd3d7958390ab98fdfef5?rik=Wiz4%2f0vJPdjcQg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fInstagram-Logo.png&ehk=D5ANNPTo%2fjLAW0UR1u9rms69i4BiAZ9%2fUunNikLa96Y%3d&risl=&pid=ImgRaw&r=0" alt="Instagram Logo" style="width:40px;">
-          </a> 
-          <a href="https://www.umt.edu/advocates/meet-the-advocates.php" target="_blank">
-            <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="Meet the Advocates Logo" style="width:40px;">
-          </a>  
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.instagram.com/um_advocates/" target="_blank">
+                    <img src="images/Instagramlogoproject3.png" alt="Instagram Logo" class="social-icon">
+                </a> 
+                <a href="https://www.facebook.com/UMAdvocates" target="_blank">
+                    <img src="images/facebooklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com/@umadvocates" target="_blank">
+                    <img src="images/titktoklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+            </div>
+            <div class="contact-info">
+                <p>Email us at: <a href="Advocates@mso.umt.edu">Advocates@mso.umt.edu</a></p>
+            </div>
         </div>
     </footer>
 

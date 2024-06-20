@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2 - Shop</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 3</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>
+    <header>
         <div class="header-content">
             <a href="index.html" class="logo-link">
                 <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="UM Advocates Logo" class="logo">
             </a>
             <nav class="horizontal-nav">
-                <a href="apply.html">Apply Now</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Apply Now</button>
+                    <div class="dropdown-content">
+                        <a href="apply.html">What's it like?</a>
+                        <a href="form.html">Basic Information Form</a>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn">About</button>
                     <div class="dropdown-content">
-                        <a href="meetthecoordinators.html">Meet the Coordinators</a>
                         <a href="meettheadvocates.html">Meet the Advocates</a>
                         <a href="photogallery.html">Photo Gallery</a>
                     </div>
@@ -28,26 +33,80 @@
     </header>
 
     <main>
-        <div class="section shop" id="Shop">
+        <div class="section title" id="Title">
             <div class="container">
-                <h1>Shop</h1>
-                <p>Welcome to the shop! Here you can find various products.</p>
-                <!-- Add your shop content here -->
+                <h1>Apply to Become an Advocate Today!</h1>
+                <div class="image-container">
+                    <img style="max-height: 300px;" src="images/Advocates Working Table at Career Fair.jpg" alt="Advocates working Table at Career Fair" title="2023 Advo-Recruitment" class="image"/>
+                </div>
+                <p style="font-size: 20px;" class="quote-text">The UM Advocates are an ASUM student group dedicated to the promotion
+                    of the University of Montana.  We do this by serving as all-around campus ambassadors,
+                    student peer mentors, Big Sky Experience leaders, and by embodying the Griz spirit in our
+                    everyday lives.  We are a group of diverse students who represent a wide breadth of academic
+                    majors, personal interests, and beliefs.  Our goal is to make everyone, from new students to
+                    alumni,  feel welcomed and part of the Griz Family...while having fun doin' it!
+                </p>
+            <div class="form-link">
+                <h1> <a href="form.html">Fill Out the Form</a></h1>
+            </div>
+                
+        </div>
+    </div>
+        </div>
+
+        <div class="section title" id="Who are the UM Advocates?">
+            <div class="container">
+                <h1 style="font-size:30px left; margin: 50px">Who are the UM Advocates?</h1>
+                <p  style="text-align: left; margin: 50px;"class="quote-text">The University of Montana Advocates
+                    organization is a 70+ member, volunteer student group that promotes the University of Montana
+                    in a variety of ways. The Advocates play a major role in many activities on campus including:
+                    new student recruitment, New Student Orientations, the First-Year Experience, homecoming, UM
+                    alumni functions, and much more. The Advocates also plan their own community service activities
+                    and social functions.
+
+                </p>
             </div>
         </div>
+
+        <div class="section title" id="Give">
+            <div class="container">
+                <h1 style="text-align: left; margin: 50px; font-size:30px">What Can the Advocates Give Me?</h1>
+                <ul class="goal-list quote-text">
+                    <li>Leadership skills </li>
+                    <li>Confidence</li>
+                    <li>Volunteer opportunities</li>
+                    <li>Communication skills</li>
+                    <li>Professionalism</li>
+                    <li>The chance to work with a great team</li>
+                    <li>A sense of ownership in the University</li>
+                    <li>An enhanced college experience</li>
+                    <li>Fantastic friendships, fun, and family!!!</li>
+                </ul>
+            </div>
+        </div>
+        
+
+
     </main>
 
     <footer class="horizontal-footer">
-        <div class="container">
-          <p>Follow me:</p> 
-          <a href="https://www.instagram.com/um_advocates/" target="_blank">
-              <img src="https://th.bing.com/th/id/R.330becd1786bd3d7958390ab98fdfef5?rik=Wiz4%2f0vJPdjcQg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fInstagram-Logo.png&ehk=D5ANNPTo%2fjLAW0UR1u9rms69i4BiAZ9%2fUunNikLa96Y%3d&risl=&pid=ImgRaw&r=0" alt="Instagram Logo" style="width:40px;">
-          </a> 
-          <a href="https://www.umt.edu/advocates/meet-the-advocates.php" target="_blank">
-            <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="Meet the Advocates Logo" style="width:40px;">
-          </a>  
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.instagram.com/um_advocates/" target="_blank">
+                    <img src="images/Instagramlogoproject3.png" alt="Instagram Logo" class="social-icon">
+                </a> 
+                <a href="https://www.facebook.com/UMAdvocates" target="_blank">
+                    <img src="images/facebooklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com/@umadvocates" target="_blank">
+                    <img src="images/titktoklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+            </div>
+            <div class="contact-info">
+                <p>Email us at: <a href="Advocates@mso.umt.edu">Advocates@mso.umt.edu</a></p>
+            </div>
         </div>
     </footer>
-
+    
 </body>
 </html>

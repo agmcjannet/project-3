@@ -13,7 +13,13 @@
                 <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="UM Advocates Logo" class="logo">
             </a>
             <nav class="horizontal-nav">
-                <a href="apply.html">Apply Now</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Apply Now</button>
+                    <div class="dropdown-content">
+                        <a href="apply.html">What's it like?</a>
+                        <a href="form.html">Basic Information Form</a>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="dropbtn">About</button>
                     <div class="dropdown-content">
@@ -27,24 +33,76 @@
     </header>
 
     <main>
-        <div class="section shop" id="Shop">
+        <div class="section title" id="Title">
             <div class="container">
-                <h1>Contact</h1>
-                <p>Welcome to the contact section!.</p>
-                <!-- Add your shop content here -->
-            </div>
+                <h1>Contact Us!</h1>
+                <div class="image-container">
+                    <img style=" max-height: 300px;" src="images/Advos in front of bear recruiting - Header.jpg" alt="Advos posing in front of bear - Header" title="Advos posing in front of bear" class="image"/>
+                </div>
+                <p class="quote-text">Please fill out the form below to get in contact with us:</p>
+                <form>
+                    <div class="form-group">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="John">
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="john.doe@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                    </div>
+                    
+                    <hr class="form-divider">
+                    
+                    <div class="form-group">
+                        <label>Would you like to receive our newsletter?</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            <label for="newsletter" class="inline-label">Yes</label>
+                            <input type="checkbox" id="newsletter" name="newsletter" value="no">
+                            <label for="newsletter" class="inline-label">No</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Preferred Contact Method:</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="contact-email" name="contact-preference" value="email">
+                            <label for="contact-email" class="inline-label">Email</label>
+                            <input type="checkbox" id="contact-phone" name="contact-preference" value="phone">
+                            <label for="contact-phone" class="inline-label">Phone</label>
+                        </div>
+                    </div>
+                    
+                    <input type="submit" value="Submit" class="submit-button">
+                </form>    
+        </div>
+    </div>
         </div>
     </main>
 
     <footer class="horizontal-footer">
-        <div class="container">
-          <p>Follow me:</p> 
-          <a href="https://www.instagram.com/um_advocates/" target="_blank">
-              <img src="https://th.bing.com/th/id/R.330becd1786bd3d7958390ab98fdfef5?rik=Wiz4%2f0vJPdjcQg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fInstagram-Logo.png&ehk=D5ANNPTo%2fjLAW0UR1u9rms69i4BiAZ9%2fUunNikLa96Y%3d&risl=&pid=ImgRaw&r=0" alt="Instagram Logo" style="width:40px;">
-          </a> 
-          <a href="https://www.umt.edu/advocates/meet-the-advocates.php" target="_blank">
-            <img src="https://th.bing.com/th/id/OIP.EYiN3RBN4gMMCqK7d_fn4wHaEV?rs=1&pid=ImgDetMain" alt="Meet the Advocates Logo" style="width:40px;">
-          </a>  
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="https://www.instagram.com/um_advocates/" target="_blank">
+                    <img src="images/Instagramlogoproject3.png" alt="Instagram Logo" class="social-icon">
+                </a> 
+                <a href="https://www.facebook.com/UMAdvocates" target="_blank">
+                    <img src="images/facebooklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+                <a href="https://www.tiktok.com/@umadvocates" target="_blank">
+                    <img src="images/titktoklogoproject3.png" alt="Meet the Advocates Logo" class="social-icon">
+                </a>
+            </div>
+            <div class="contact-info">
+                <p>Email us at: <a href="Advocates@mso.umt.edu">Advocates@mso.umt.edu</a></p>
+            </div>
         </div>
     </footer>
 
